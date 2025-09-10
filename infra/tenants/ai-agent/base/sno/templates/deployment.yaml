@@ -24,7 +24,7 @@ spec:
         deployment: ai-agent
     spec:
       containers:
-      - image: "image-registry.openshift-image-registry.svc:5000/ai-agent/ai-agentsha256:2e423ea0ee005072b81b37cfabc170ee6347ad5bf59899e0604638d0bfa63f87"
+      - image: "image-registry.openshift-image-registry.svc:5000/ai-agent/ai-agent@sha256:2e423ea0ee005072b81b37cfabc170ee6347ad5bf59899e0604638d0bfa63f87"
         imagePullPolicy: IfNotPresent
         name: agent-service
         ports:
